@@ -68,11 +68,30 @@
 .sp-25 {
   letter-spacing: 2.5px;
 }
+.uppercase {
+  text-transform: uppercase; }
 .font_first {
   font-family: 'Patua One'; }
 
 .font_second {
   font-family: 'Gothic A1', sans-serif;; }
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        background: #FFBC00;
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 60%; /* Set the width of the positioned div */
+    }
 
 /* Opacity */
 .op-0 {
@@ -12379,6 +12398,20 @@ input[type=radio] + label:before {
 .color-dribbble.link:hover {
   color: #d81862;
 }
+.color-yellow {
+  color: #FFBC00; }
+
+.color-purple {
+  color: #a29bfe; }
+
+.color-green {
+  color: #0097A7; }
+  .color-green.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .color-green.link:hover, .color-green.link:focus {
+      color: #0cb658; }
 
 /* background-colors */
 .bg-light {
@@ -12398,6 +12431,15 @@ input[type=radio] + label:before {
 }
 .bg-gray {
   background-color: #EBEAED;
+}
+.bg-yellow {
+  background-color: #FFBC00; 
+}
+.bg-green {
+  background: #0097A7; 
+}
+.bg-purple {
+  background: #a29bfe; 
 }
 .bg-action-1 {
   background-color: #ffbc00;
