@@ -68,6 +68,11 @@
 .sp-25 {
   letter-spacing: 2.5px;
 }
+.font_first {
+  font-family: 'Patua One'; }
+
+.font_second {
+  font-family: 'Gothic A1', sans-serif;; }
 
 /* Opacity */
 .op-0 {
