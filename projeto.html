@@ -150,7 +150,7 @@
                             <div class="mt-55 col-lg-11 col-md-12 col-sm-9 block" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
                                 <div class="mb-15 f-18 medium title">
                                     <i class="fas fa-check mr-10"></i>
-                                    <span class=""> Materiais</span>
+                                    <span class="">Materiais</span>
                                 </div>
                                 <div class="text-adaptive">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla.
@@ -169,7 +169,7 @@
                                 <i class="fas fa-file f-32"></i>
                                 <div class="mt-15 mb-15 f-18 medium title">Arquivos</div>
                                 <div class="text-adaptive">
-                                    <a href="#">Manual de montagem (PDF)</a>
+                                    <a href="projeto_manual.html?print-pdf" target="_blank">Manual de montagem (PDF)</a>
                                     <br/>
                                     <a href="#">Guia de perfuração (PDF)</a>
                                 </div>
@@ -177,7 +177,26 @@
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-5 text-md-right" data-aos-duration="500" data-aos="fade-down" data-aos-delay="1000">
-                        <a href="#"><img src="i/projeto/imagem_manual.svg" alt="" class="img-fluid bg" /></a>
+                        <a href="projeto_manual.html" class="box" data-toggle="modal" data-target="#manual">
+                            <img src="i/projeto/imagem_manual.svg" alt="" class="img-fluid bg" />
+                            <p class="font-first action-1 text font_first f-24">Manual de construção >></p>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="manual" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="projeto_manual.html" allowfullscreen></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -214,33 +233,36 @@
                             </div>
                             <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
+                                <span class="sr-only">Anterior</span>
                             </a>
                             <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
+                                <span class="sr-only">Próximo</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section class="pt-105 pb-10 bg-light text-center feature_16 color-main">
-			<div class="container px-xl-0">
-				<div class="row justify-content-center">
-					<div class="col-xl-8 col-lg-10">
-						<h2 class="mb-30 small" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">Autor</h2>
-						<div class="color-heading text-adaptive" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eget felis eget nunc lobortis mattis aliquam. Imperdiet dui accumsan sit amet. Varius morbi enim nunc faucibus. Tellus id interdum velit laoreet id donec ultrices tincidunt. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Enim sed faucibus turpis in eu mi bibendum neque. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Urna nec tincidunt praesent semper feugiat nibh sed. Augue interdum velit euismod in pellentesque massa. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
-						</div>
-						<img src="i/projeto/autor.jpg" alt="" class="mt-55 mb-65 img-fluid bg" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500" />
-					</div>
-				</div>
-				<div class="row">
-				</div>
-			</div>
-		</section>
+            <div class="container px-xl-0">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-10">
+                        <img src="i/projeto/autor.jpg" alt="" class="mt-55 mb-65 img-fluid bg" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500" />
+                    </div>
+                    <div class="col-xl-6 col-lg-10">
+                        <h2 class="mb-30 small" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">Autor</h2>
+                        <div class="color-heading text-adaptive" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eget felis eget nunc lobortis mattis aliquam. Imperdiet dui accumsan sit amet. Varius morbi enim nunc faucibus. Tellus id interdum velit laoreet id donec ultrices tincidunt. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Enim sed faucibus turpis in eu mi bibendum neque. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit.
+                        </div>
+                        <!--						<img src="i/projeto/autor.jpg" alt="" class="mt-55 mb-65 img-fluid bg" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500" />-->
+                    </div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </section>
 
         <footer class="pt-100 pb-100 bg-light text-center text-lg-left footer_3">
             <div class="container px-xl-0">
