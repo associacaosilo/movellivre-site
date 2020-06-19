@@ -76,22 +76,58 @@
 .font_second {
   font-family: 'Gothic A1', sans-serif;; }
 .box{
-        position: relative;
-        display: inline-block; /* Make the width of box same as image */
-    }
-    .box .text{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;        
-        text-align: center;
-        top: 40%; /* Adjust this value to move the positioned div up and down */
-        background: #FFBC00;
-        font-family: Arial,sans-serif;
-        color: #fff;
-        width: 60%; /* Set the width of the positioned div */
-    }
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  background: #FFBC00;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 60%; /* Set the width of the positioned div */
+}
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left; 
+}
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:10px; 
+    margin:10px; 
+    background:transparent;
+    color:#000;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; 
+    border-radius:0;
+    top:calc(50% - 20px); 
+}
+.MultiCarousel .leftLst { 
+    left:0; 
+}
+.MultiCarousel .rightLst { 
+    right:0; 
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none;
+    background: transparent; 
+}
 
 /* Opacity */
 .op-0 {
