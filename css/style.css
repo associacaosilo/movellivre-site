@@ -216,6 +216,14 @@ b, strong {
   background: url(../i/slick-arrow-left.svg) no-repeat 0 50%;
 }
 
+
+.img_link img {
+  transition: all 0.25s;
+}
+.img_link:hover img {
+  opacity: 0.8;
+}
+
 /* Dots */
 .slick-dots {
   position: absolute;
